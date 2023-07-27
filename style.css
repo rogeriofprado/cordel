@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Sriracha&display=swap');
+
+:root {
+    --font-1: 'Passion One', cursive;
+    --font-2: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+
+}
