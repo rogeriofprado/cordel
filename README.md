@@ -2,8 +2,13 @@
  <h2>Projeto de uma página, leitura de um Cordel.</h2>
  <span>Site produzido baseado na leitura do cordel deste autor, créditos a baixo.</span>
  <p>
-  Esta é uma tarefa de criação de uma página do [curso em video](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-3-de-5-40-horas/) modulo 3.<br>
+  Esta é uma tarefa de criação de uma página do *[curso em video](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-3-de-5-40-horas/) modulo 3.*<br>
    Neste projeto demos ênfase a background-image e de como deixa-la com efeito paralax (embora não sei se esse nome esta certo semanticamente kkk).
+ </p>
+ <p> isso é um teste. <br>
+ I love supporting the **[EFF](https://eff.org)**.
+This is the *[Markdown Guide](https://www.markdownguide.org)*.
+See the section on [`code`](#code).
  </p>
 
  <span>VEJA O VÍDEO DESTE CORDEL NARRADO PELO AUTOR: https://youtu.be/ePPNliWMnoM</span> 
