@@ -14,6 +14,62 @@
     font-family: sans-serif;
 }
 
-body {
+html, body {
+    min-height: 100vh;
+    background-color: gray;
+}
 
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps; /*todas letras em maiúscula porém as primeiras são maiores.*/
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+} 
+
+a:hover {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+section {
+    padding-top: 10vh; /*10%da minha altura*/
+    padding-bottom: 10vh;
+    line-height: 2em; /*espaçamento entre as linhas*/
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.image {
+    background-color: rgba(0, 0, 0, 0.454);
+    color: white;
+}
+
+section.image > p {
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 400px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
