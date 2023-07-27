@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Sriracha&display=swap');
 
 :root {
+    --font-0: 'Arial, Helvetica, sans-serif';
     --font-1: 'Passion One', cursive;
     --font-2: 'Sriracha', cursive;
 }
@@ -11,7 +12,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 html, body {
@@ -28,6 +28,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps; /*todas letras em maiúscula porém as primeiras são maiores.*/
+    font-family: var(--font-1);
+    font-size: 10vw;
 }
 
 header > p {
@@ -50,6 +52,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em; /*espaçamento entre as linhas*/
     padding-left: 30px;
+    font-family: var(--font-2);
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -64,7 +68,8 @@ section.image {
 
 section.image > p {
     background-color: rgba(0, 0, 0, 0.342);
-    width: 400px;
+    display: inline-block;  /* a caixa se adapta ao conteúdo */
+    padding: 5px;
 }
 
 footer {
